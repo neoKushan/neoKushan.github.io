@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on Steve Donaghy</title>
+    <link>/project/</link>
+    <description>Recent content in Projects on Steve Donaghy</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Sun, 23 Dec 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/project/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>bcrypt.net Core</title>
+      <link>/project/bcrypt-dotnet-core/</link>
+      <pubDate>Sun, 23 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/project/bcrypt-dotnet-core/</guid>
+      <description>At the release of .net core 1.0, there was no way to trivially use bcrypt password hashing. A .net library existed, but it had been abandoned by the author.
+I took it upon myself to port this library to .net core. I have been maintaining it ever since and it is currently the most popular bcrypt library for .net core!</description>
+    </item>
+    
+  </channel>
+</rss>

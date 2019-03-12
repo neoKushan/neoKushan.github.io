@@ -15,10 +15,11 @@
   
     
   
-  <meta name="description" content="Steve Donaghy&#39;s personal site">
+  <meta name="description" content="At the release of .net core 1.0, there was no way to trivially use bcrypt password hashing. A .net library existed, but it had been abandoned by the author.
+I took it upon myself to port this library to .net core. I have been maintaining it ever since and it is currently the most popular bcrypt library for .net core!">
 
   
-  <link rel="alternate" hreflang="en-us" href="">
+  <link rel="alternate" hreflang="en-us" href="/project/bcrypt-dotnet-core/">
 
   
 
@@ -92,7 +93,7 @@
   <link rel="icon" type="image/png" href="/img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
 
-  <link rel="canonical" href="">
+  <link rel="canonical" href="/project/bcrypt-dotnet-core/">
 
   
   
@@ -107,12 +108,15 @@
   <meta property="twitter:creator" content="@KushanTheCat">
   
   <meta property="og:site_name" content="Steve Donaghy">
-  <meta property="og:url" content="">
-  <meta property="og:title" content="404 Page not found | Steve Donaghy">
-  <meta property="og:description" content="Steve Donaghy&#39;s personal site"><meta property="og:image" content="/img/portrait.jpg">
+  <meta property="og:url" content="/project/bcrypt-dotnet-core/">
+  <meta property="og:title" content="bcrypt.net Core | Steve Donaghy">
+  <meta property="og:description" content="At the release of .net core 1.0, there was no way to trivially use bcrypt password hashing. A .net library existed, but it had been abandoned by the author.
+I took it upon myself to port this library to .net core. I have been maintaining it ever since and it is currently the most popular bcrypt library for .net core!"><meta property="og:image" content="/img/portrait.jpg">
   <meta property="og:locale" content="en-us">
   
+  <meta property="article:published_time" content="2018-12-23T00:00:00&#43;00:00">
   
+  <meta property="article:modified_time" content="2019-03-12T23:20:32&#43;00:00">
   
 
   
@@ -145,7 +149,7 @@
 
   
 
-  <title>404 Page not found | Steve Donaghy</title>
+  <title>bcrypt.net Core | Steve Donaghy</title>
 
 </head>
 <body id="top" data-spy="scroll" data-target="#TableOfContents" data-offset="71" class="dark">
@@ -301,38 +305,289 @@
   </div>
 </nav>
 
-<div class="container">
 
-  <h1>Page not found</h1>
-  <p>Perhaps you were looking for one of these?</p>
+<article class="article article-project" itemscope itemtype="http://schema.org/Article">
 
   
+
+
+
+
+
+
+
+
+
+
+
+
   
-  <h2>Posts</h2>
+
   
-  <ul>
-    <li><a href="/post/first-post/">First post</a></li>
+  
+  
+<div class="article-container pt-3">
+  <h1 itemprop="name">bcrypt.net Core</h1>
+
+  
+
+  
+    
+
+<div class="article-metadata">
+
+  
+  
+  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+    <meta itemprop="name" content="Steve Donaghy">
+  </span>
+  
+
+  <span class="article-date">
+    
+        Last updated on
+    
+    <meta content="2018-12-23 00:00:00 &#43;0000 GMT" itemprop="datePublished">
+    <time datetime="2019-03-12 23:20:32 &#43;0000 GMT" itemprop="dateModified">
+      2019-03-12
+    </time>
+  </span>
+  <span itemscope itemprop="publisher" itemtype="http://schema.org/Person">
+    <meta itemprop="name" content="Steve Donaghy">
+  </span>
+
+  
+
+  
+  
+
+  
+
+  
+  
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    <li>
+      <a class="twitter"
+         href="https://twitter.com/intent/tweet?text=bcrypt.net%20Core&amp;url=%2fproject%2fbcrypt-dotnet-core%2f"
+         target="_blank" rel="noopener">
+        <i class="fab fa-twitter"></i>
+      </a>
+    </li>
+    <li>
+      <a class="facebook"
+         href="https://www.facebook.com/sharer.php?u=%2fproject%2fbcrypt-dotnet-core%2f"
+         target="_blank" rel="noopener">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+    </li>
+    <li>
+      <a class="linkedin"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=%2fproject%2fbcrypt-dotnet-core%2f&amp;title=bcrypt.net%20Core"
+         target="_blank" rel="noopener">
+        <i class="fab fa-linkedin-in"></i>
+      </a>
+    </li>
+    <li>
+      <a class="weibo"
+         href="http://service.weibo.com/share/share.php?url=%2fproject%2fbcrypt-dotnet-core%2f&amp;title=bcrypt.net%20Core"
+         target="_blank" rel="noopener">
+        <i class="fab fa-weibo"></i>
+      </a>
+    </li>
+    <li>
+      <a class="email"
+         href="mailto:?subject=bcrypt.net%20Core&amp;body=%2fproject%2fbcrypt-dotnet-core%2f">
+        <i class="fas fa-envelope"></i>
+      </a>
+    </li>
   </ul>
-  
-  
+</div>
 
-  
-  
 
-  
-  
-
-  
-  
-  <h2>Projects</h2>
-  
-  <ul>
-    <li><a href="/project/bcrypt-dotnet-core/">bcrypt.net Core</a></li>
-  </ul>
-  
   
 
 </div>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+</div>
+
+
+
+  <div class="article-container">
+
+    <div class="article-style" itemprop="articleBody">
+      <p>At the release of .net core 1.0, there was no way to trivially use bcrypt password hashing. A .net library existed, but it had been abandoned by the author.</p>
+
+<p>I took it upon myself to port this library to .net core. I have been maintaining it ever since and it is currently the most popular bcrypt library for .net core!</p>
+
+    </div>
+
+    
+
+    
+
+
+
+
+
+
+<div class="media author-card" itemscope itemtype="http://schema.org/Person">
+  
+  <img class="portrait mr-3" src="/img/portrait.jpg" itemprop="image" alt="Avatar">
+  
+  <div class="media-body">
+    <h5 class="card-title" itemprop="name"><a href="/">Steve Donaghy</a></h5>
+    <h6 class="card-subtitle">.net Development team manager and nerd</h6>
+    
+    <ul class="network-icon" aria-hidden="true">
+      
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      <li>
+        <a itemprop="sameAs" href="mailto:donaghy.steve@googlemail.com" >
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+      
+      
+      
+      
+        
+      
+      
+      
+      
+      
+        
+      
+      <li>
+        <a itemprop="sameAs" href="https://twitter.com/KushanTheCat" target="_blank" rel="noopener">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+      
+      
+      
+      
+        
+      
+      
+      
+      
+      
+        
+      
+      <li>
+        <a itemprop="sameAs" href="https://www.linkedin.com/in/stephen-donaghy-b0703015" target="_blank" rel="noopener">
+          <i class="fab fa-linkedin"></i>
+        </a>
+      </li>
+      
+      
+      
+      
+        
+      
+      
+      
+      
+      
+        
+      
+      <li>
+        <a itemprop="sameAs" href="https://github.com/neoKushan" target="_blank" rel="noopener">
+          <i class="fab fa-github"></i>
+        </a>
+      </li>
+      
+      
+      
+      
+        
+      
+      
+      
+      
+      
+        
+      
+      <li>
+        <a itemprop="sameAs" href="https://account.xbox.com/en-us/profile?gamertag=neoKushan" target="_blank" rel="noopener">
+          <i class="fab fa-xbox"></i>
+        </a>
+      </li>
+      
+      
+      
+      
+        
+      
+      
+      
+      
+      
+        
+      
+      <li>
+        <a itemprop="sameAs" href="https://steamcommunity.com/id/Kushan" target="_blank" rel="noopener">
+          <i class="fab fa-steam"></i>
+        </a>
+      </li>
+      
+    </ul>
+  </div>
+</div>
+
+
+
+
+    
+    
+
+    
+
+      
+      
+      
+
+      
+      
+      
+
+      
+      
+      
+    
+
+  </div>
+</article>
+
+
+
 <div class="container">
   <footer class="site-footer">
   
