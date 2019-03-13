@@ -6,7 +6,7 @@
     <description>Recent content in Homes on Steve Donaghy</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2018</copyright>
+    <copyright>&amp;copy; 2019</copyright>
     <lastBuildDate>Sun, 15 Oct 2017 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/home/index.xml" rel="self" type="application/rss+xml" />
@@ -36,7 +36,9 @@
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
       
       <guid>/home/about/</guid>
-      <description>Biography Steve Donaghy loves tech, programming, gaming and cats.</description>
+      <description>Biography Hi, I&amp;rsquo;m Steve.
+My first experience tinkering with technology was probably when I reprogrammed the Satellite receiver to receive additional channels. My Dad was furious when he caught me, but he soon got over it when he realised just how many more channels there were. I was 8 at the time.
+It was inevitable that I&amp;rsquo;d go on to tinker with real computers, figuring out what makes them tick and before you know it I&amp;rsquo;m a developer.</description>
     </item>
     
     <item>
