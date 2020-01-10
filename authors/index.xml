@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Authors | Academic</title>
+    <link>/authors/</link>
+      <atom:link href="/authors/index.xml" rel="self" type="application/rss+xml" />
+    <description>Authors</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language>
+    <image>
+      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Authors</title>
+      <link>/authors/</link>
+    </image>
+    
+    <item>
+      <title></title>
+      <link>/authors/admin/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/authors/admin/</guid>
+      <description>&lt;p&gt;Hi, I&#39;m Steve.&lt;/p&gt;
+&lt;p&gt;My first experience tinkering with technology was probably when I reprogrammed the Satellite receiver to receive additional channels. My Dad was furious when he caught me, but he soon got over it when he realised just &lt;em&gt;how many&lt;/em&gt; more channels there were. I was 8 at the time.&lt;/p&gt;
+&lt;p&gt;It was inevitable that I&#39;d go on to tinker with &lt;em&gt;real&lt;/em&gt; computers, figuring out what makes them tick and before you know it I&#39;m a developer.&lt;/p&gt;
+&lt;p&gt;Soon I&#39;d go on to make my mark designing software for testing Chip &amp;amp; Pin devices; large multi-million £ e-commerce sites and even the odd dev-talk.&lt;/p&gt;
+&lt;p&gt;You&#39;d think I&#39;d stop there, but no, the Internet of Things happened so when I&#39;m &lt;em&gt;not&lt;/em&gt; working, I&#39;m busy trying to get my vacuum cleaner to talk to my cat-flap (No, really).&lt;/p&gt;
+&lt;p&gt;I don&#39;t just &lt;em&gt;like&lt;/em&gt; technology, I absolutely ❤ it. There&#39;s &lt;em&gt;probably&lt;/em&gt; something wrong with me.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
