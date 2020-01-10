@@ -10,39 +10,25 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Projects</title>
-      <link>/project/</link>
+      <title>bcrypt.net Core</title>
+      <link>/project/bcrypt-dotnet-core/</link>
       <pubDate>Sun, 23 Dec 2018 00:00:00 +0000</pubDate>
       
-      <guid>/project/</guid>
-      <description></description>
+      <guid>/project/bcrypt-dotnet-core/</guid>
+      <description>&lt;p&gt;At the release of .net core 1.0, there was no way to trivially use bcrypt password hashing. A .net library existed, but it had been abandoned by the author.&lt;/p&gt;
+
+&lt;p&gt;I took it upon myself to port this library to .net core. I have been maintaining it ever since and it is currently the most popular bcrypt library for .net core!&lt;/p&gt;
+</description>
     </item>
     
     <item>
-      <title>Posts</title>
-      <link>/post/</link>
-      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <title>First post</title>
+      <link>/post/first-post/</link>
+      <pubDate>Sat, 23 Dec 2017 00:00:00 +0000</pubDate>
       
-      <guid>/post/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Publications</title>
-      <link>/publication/</link>
-      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/publication/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Recent &amp; Upcoming Talks</title>
-      <link>/talk/</link>
-      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/talk/</guid>
-      <description></description>
+      <guid>/post/first-post/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;m a nerdy boy and I love Hugo.&lt;/p&gt;
+</description>
     </item>
     
   </channel>
